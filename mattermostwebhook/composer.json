@@ -1,0 +1,15 @@
+{
+    "name": "Mattermost Webhook",
+    "description": "Creates a vWebhook to Mattermost",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "Bjoern Meier"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>mattermostwebhook</id>
+    <name>Mattermost Webhook</name>
+    <summary>Creates a vWebhook to Mattermost</summary>
+    <description><![CDATA[Mattermost Webhook posts activities to given channels]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="bjoern.meier@gmail.com" >Bjoern Meier</author>
+    <namespace>MattermostWebhook</namespace>
+    <category>integration</category>
+    <bugs>https://github.com/salacryl/Mattermost-Webhook/issues</bugs>
+    <dependencies>
+        <nextcloud min-version="13" max-version="13"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Mattermost Webhook</name>
+            <route>mattermostwebhook.page.index</route>
+        </navigation>
+    </navigations>
+</info>
