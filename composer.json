@@ -1,6 +1,6 @@
 {
     "name": "Mattermost Webhook",
-    "description": "Creates a vWebhook to Mattermost",
+    "description": "Uses a Webhook to Mattermost",
     "type": "project",
     "license": "AGPL",
     "authors": [

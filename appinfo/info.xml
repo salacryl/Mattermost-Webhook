@@ -3,21 +3,24 @@
       xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
     <id>mattermostwebhook</id>
     <name>Mattermost Webhook</name>
-    <summary>Creates a vWebhook to Mattermost</summary>
-    <description><![CDATA[Mattermost Webhook posts activities to given channels]]></description>
+    <summary>Uses a Webhook to Mattermost</summary>
+    <description><![CDATA[Can Posts File-Activities into a Mattermost Channel.]]></description>
     <version>0.0.1</version>
     <licence>agpl</licence>
     <author mail="bjoern.meier@gmail.com" >Bjoern Meier</author>
-    <namespace>mattermostwebhook</namespace>
+    <namespace>MattermostWebhook</namespace>
     <category>integration</category>
     <bugs>https://github.com/salacryl/Mattermost-Webhook/issues</bugs>
     <dependencies>
-        <nextcloud min-version="13" max-version="14"/>
+        <nextcloud min-version="14" max-version="14"/>
     </dependencies>
-    <navigations>
-        <navigation>
-            <name>Mattermost Webhook</name>
-            <route>mattermostwebhook.page.index</route>
-        </navigation>
-    </navigations>
+	<default_enable/>
+	<types>
+		<filesystem/>
+	</types>
+	 <settings>
+        <personal>OCA\MattermostWebhook\Settings\Personal</personal>
+        <personal-section>OCA\MattermostWebhook\Settings\Section</personal-section>
+    </settings>
+ 
 </info>

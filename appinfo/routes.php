@@ -9,7 +9,7 @@
  */
 return [
     'routes' => [
-	   ['name' => 'page#index', 'url' => '/', 'verb' => 'GET'],
-	   ['name' => 'page#do_echo', 'url' => '/echo', 'verb' => 'POST'],
+	   ['name' => 'settings#save', 'url' => '/settings/save', 'verb' => 'PUT'],
+	   ['name' => 'settings#load', 'url' => '/settings/load', 'verb' => 'GET'],
     ]
 ];
